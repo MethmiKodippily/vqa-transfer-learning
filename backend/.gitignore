@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env/
+.venv/
+env/
+
+# Model artifacts
+model/
+!model/ohe.joblib   # Keep this encoder if needed for inference
+
+# Log or cache files
+*.log
+*.tmp
+*.bak
+
+# OS + Editor junk
+.DS_Store
+*.swp
+.vscode/
+.idea/

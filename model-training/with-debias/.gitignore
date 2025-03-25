@@ -1,0 +1,39 @@
+# Jupyter auto-generated files
+.ipynb_checkpoints/
+*.ipynb
+
+# Model artifacts
+*.keras
+exported_saved_model/
+
+# Logs and predictions
+model_logs/
+gqa_ood_testdev_predictions.json
+result.png
+
+# Dataframes (optional – ignore if reproducible from source)
+train_df.*
+val_df.*
+
+# Large or temporary outputs
+*.xlsx
+*.csv
+*.tsv
+*.xls
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+.env
+
+# OS & IDE junk
+.DS_Store
+.vscode/
+.idea/
+
+# Keep the joblib encoder (important!)
+!ohe.joblib

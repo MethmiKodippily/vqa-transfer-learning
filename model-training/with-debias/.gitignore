@@ -1,6 +1,5 @@
 # Jupyter auto-generated files
 .ipynb_checkpoints/
-*.ipynb
 
 # Model artifacts
 *.keras

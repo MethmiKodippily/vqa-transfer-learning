@@ -1,5 +1,3 @@
-# frontend/Dockerfile
-
 FROM node:22.14 AS build
 
 WORKDIR /app
